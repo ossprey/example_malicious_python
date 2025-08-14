@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euxo pipefail
-
+sudo apt-get install -y npm
 # 0. Git Config
 sudo apt-get update && sudo apt-get install -y git-lfs
 git config --global push.default current
