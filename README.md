@@ -1,41 +1,9 @@
-# MathLib
+# Example malicious package
 
-MathLib is a simple Python library for performing basic mathematical calculations. It provides functions for addition, subtraction, multiplication, and division, along with utility functions to validate inputs.
+This is an example malicious package that demonstrates how attackers might attempt to compromise a seemingly innoculous package.
 
-## Features
+This is used for testing and demonstration purposes only and is completely benign.
 
-- Basic mathematical operations:
-  - Addition
-  - Subtraction
-  - Multiplication
-  - Division
-- Input validation utilities
+In the __init__.py file you will see some sample code that will base64 decode and run a command which will echo to the screen echo "You got pwned!"
 
-## Installation
-
-You can install MathLib using pip:
-
-```
-pip install mathlib
-```
-
-## Usage
-
-Here is a quick example of how to use MathLib:
-
-```python
-from mathlib.calculations import add, subtract, multiply, divide
-
-result_add = add(5, 3)  # Returns 8
-result_subtract = subtract(5, 3)  # Returns 2
-result_multiply = multiply(5, 3)  # Returns 15
-result_divide = divide(5, 3)  # Returns approximately 1.67
-```
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+This is all it does. 
